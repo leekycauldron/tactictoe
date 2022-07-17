@@ -1,0 +1,86 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.boardBlock {
+  border: 1px solid white;
+  height:100px;
+  text-align:center;
+  width:35px;
+  font-size:80px;
+  line-height: 100px;
+}
+
+.boardBlock:hover {
+  background-color: #3f4547;
+  cursor: pointer;
+}
+
+.boardBlock:active {
+  background-color: #5c6466;
+  cursor: pointer;
+}
+
+
+#b1 {
+  border-left:none;
+  border-top:none;
+}
+
+#b2 {
+  border-top: none;
+}
+
+#b3 {
+  border-top: none;
+  border-right: none;
+}
+
+#b4 {
+  border-left: none;
+}
+
+#b6 {
+  border-right: none;
+}
+
+#b7 {
+  border-left:none;
+  border-bottom: none;
+}
+
+#b8 {
+  border-left:none;
+  border-bottom: none;
+}
+
+#b9 {
+  border-right: none;
+  border-bottom: none;
+}
+
+.playAgainBtn:enabled{
+  animation-duration: 1s;
+  animation-name: fadein;
+}
+
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
